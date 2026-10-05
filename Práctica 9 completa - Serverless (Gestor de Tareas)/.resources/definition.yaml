@@ -1,0 +1,6 @@
+$kind: collection
+description: base_url es tu propia URL de Vercel (https://tu-proyecto.vercel.app), no localhost. Las mismas 8 peticiones de siempre, contra funciones serverless en vez de un backend Docker.
+variables:
+  base_url: https://TU-PROYECTO.vercel.app
+  user_id: "1"
+  task_id: "1"

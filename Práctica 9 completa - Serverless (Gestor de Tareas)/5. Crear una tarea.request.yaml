@@ -1,0 +1,13 @@
+$kind: http-request
+url: "{{base_url}}/api/tasks"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "userId": {{user_id}},
+      "title": "Cerrar el ciclo de arquitecturas"
+    }
+order: 5000
